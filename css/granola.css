@@ -94,3 +94,44 @@ html body .title
     font-size: 600%;
     color: #6aa84f;
 }
+
+/*
+
+RESPONSIVENESS
+
+*/
+
+@media(max-width:1399px)
+{
+    html body .container.company-logo
+    {
+        top: -250px;
+    }
+    html body .container.company-logo .company-name
+    {
+        top: 100px
+    }
+}
+@media(max-width:1199px)
+{
+    html body .container.company-logo
+    {
+        top: -210px;
+    }
+    html body .container.company-logo .company-name
+    {
+        top: 60px
+    }
+}
+@media(max-width:991px)
+{
+    
+}
+@media(max-width:767px)
+{
+    
+}
+@media(max-width:575px)
+{
+    
+}

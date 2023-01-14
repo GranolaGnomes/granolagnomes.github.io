@@ -146,11 +146,15 @@ RESPONSIVENESS
 {
     html body .container.company-logo
     {
-        top: -300px;
+        top: -220px;
     }
     html body .container.company-logo .company-name
     {
         top: 0;
+    }
+    #sky
+    {
+        padding: 100px;
     }
 }
 @media(max-width:767px)

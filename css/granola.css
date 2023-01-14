@@ -1,0 +1,96 @@
+/* 
+
+RESETS 
+
+*/
+
+html body 
+{
+    color: #274e13;
+    background: #d9ead3;
+    font-family: sans-serif;
+    text-align: center;
+}
+html body .img-block
+{
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+a
+{
+    text-decoration: none;
+}
+
+/*
+
+SKY
+
+*/
+
+#sky
+{
+    display: block;
+    position: relative;
+    background: #d2e3f4;
+    padding: 200px 100px;
+    border-bottom: 3px double #274e13;
+}
+
+html body .container.company-logo
+{
+    display: inline-block;
+    position: relative;
+    top: -300px;
+}
+html body .container.company-logo .company-name
+{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+}
+html body .container.company-logo .company-name .script
+{
+    color: #274e13;
+}
+html body .container.company-logo:hover .company-name .script,
+html body .container.company-logo .company-name:hover .script
+{
+    color: #6aa84f;
+}
+html body .container.company-logo:hover .company-name .title,
+html body .container.company-logo .company-name:hover .title
+{
+    color: #274e13;
+}
+html body .container.company-logo:hover img,
+html body .container.company-logo img:hover,
+html body .container.company-logo a:hover img
+{
+    opacity: 0.75;
+}
+
+/*
+
+FONTS
+
+*/
+
+html body .script
+{
+    display: block;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 360%;
+    margin: 0 0 -15px -12px;
+}
+html body .title
+{
+    display: block;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-size: 600%;
+    color: #6aa84f;
+}

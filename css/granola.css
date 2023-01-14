@@ -42,13 +42,13 @@ html body .container.company-logo
 {
     display: inline-block;
     position: relative;
-    top: -300px;
+    top: -290px;
 }
 html body .container.company-logo .company-name
 {
     display: inline-block;
     position: relative;
-    top: 150px;
+    top: 155px;
 }
 html body .container.company-logo .company-name .script
 {
@@ -82,7 +82,7 @@ html body .script
     display: block;
     text-align: center;
     font-family: 'Lobster', cursive;
-    font-size: 360%;
+    font-size: 320%;
     margin: 0 0 -15px -12px;
 }
 html body .title
@@ -91,7 +91,7 @@ html body .title
     text-align: center;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
-    font-size: 600%;
+    font-size: 550%;
     color: #6aa84f;
 }
 
@@ -109,7 +109,16 @@ RESPONSIVENESS
     }
     html body .container.company-logo .company-name
     {
-        top: 100px
+        top: 130px
+    }
+    html body .title
+    {
+        font-size: 480%;
+    }
+    html body .script
+    {
+        margin-left: -5px;
+        font-size: 300%;
     }
 }
 @media(max-width:1199px)
@@ -120,12 +129,29 @@ RESPONSIVENESS
     }
     html body .container.company-logo .company-name
     {
-        top: 60px
+        top: 115px;
+    }
+    html body .title
+    {
+        font-size: 400%;
+    }
+    html body .script
+    {
+        margin-left: -15px;
+        margin-bottom: -10px;
+        font-size: 220%;
     }
 }
 @media(max-width:991px)
 {
-    
+    html body .container.company-logo
+    {
+        top: -300px;
+    }
+    html body .container.company-logo .company-name
+    {
+        top: 0;
+    }
 }
 @media(max-width:767px)
 {
